@@ -13,7 +13,7 @@ API_ID = int(os.environ.get("API_ID", "12124605"))
 API_HASH = os.environ.get("API_HASH", "5cf3577d85fd02286535ec2296934287")
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "5574279873:AAGymOt26dpVb9lOpPmPonFcmqKILBg4rJ8")
 DROPLINK_API = os.environ.get("DROPLINK_API")
-MDISK_API = os.environ.get("MDISK_API", "Qu7jX9V0Sn3q1JHdxjPp")
+MDISK_API = os.environ.get("MDISK_API", "Qu7jX9V0Sn3q1JH")
 ADMINS = list(int(i.strip()) for i in os.environ.get("ADMINS").split(",")) if os.environ.get("ADMINS") else []
 DATABASE_NAME = os.environ.get("DATABASE_NAME", "MdiskConvertorBotpro")
 DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://postbot:postbot@cluster0.ouwne8q.mongodb.net/?retryWrites=true&w=majority")
